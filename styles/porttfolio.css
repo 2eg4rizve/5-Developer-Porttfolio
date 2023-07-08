@@ -19,6 +19,14 @@ body {
 
 }
 
+.sectoin-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
 /* nav related styles*/
 nav {
     display: flex;
@@ -58,6 +66,11 @@ nav a {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
 }
 
 .profile-picture {
@@ -77,6 +90,23 @@ nav a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-discription{
-    
+
+.banner-discription {
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+}
+
+/*main section style*/
+
+
+
+/*about section style*/
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: rgb(202, 56, 56);
+    margin: 130px 0px;
+   
+
 }

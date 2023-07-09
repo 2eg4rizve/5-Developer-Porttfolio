@@ -55,11 +55,10 @@ nav a {
 /* header related styles*/
 
 .header {
-    background-color: #620ec9;
-    ;
-    background-image: url(../images/header_bg.png);
+    background-color: #620ec9;;
+    background-image: url('../images/header_bg.png'),url('/images/developer1.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 }
 
 .banner {
